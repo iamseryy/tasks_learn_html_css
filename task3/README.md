@@ -16,6 +16,6 @@
     ![](img/img1.png)
 
 2. Сайт
-* https://github.com/iamseryy/tasks_learn_html_css/tree/main/task3
+* https://github.com/iamseryy/tasks_learn_html_css/tree/main/task3/GrowBe
 
     ![](img/img2.png)
