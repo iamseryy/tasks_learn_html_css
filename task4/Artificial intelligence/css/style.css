@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020A18;
+}
+
+.menu-link {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    padding: 40px 16px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1147px;
+    margin: 0 auto;
+}
+
+.menu-link:hover {
+    color: #3A68B8;
+}
+
+.header {
+    margin-bottom: 160px;
+}
+
+.subtitle {
+    color: #3A68B8;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title-top {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 71.5px */
+    margin-bottom: 40px;
+}
+
+.title-middle {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 52px */
+    margin-bottom: 30px;
+}
+
+.title-bottom {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 71.5px */
+    margin-bottom: 40px;
+}
+
+
+.dsc {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+.main-link {
+    border-radius: 5px;
+    background: #3A68B8;
+    padding: 1rem 2rem;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left, .main-right {
+    width: 47%;
+}
+
+.justify-content-to-end {
+    display: flex;
+    justify-content: end;
+}
+
+.main {
+    margin-bottom: 200px;
+}
+
+.image-right {
+    text-align: right;
+}
+
+.logo {
+    margin-bottom: 256px;
+}
+
+.advantage {
+    border-radius: 10px;
+    opacity: 0.1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) -41.9%, #FFF 115.68%);
+    backdrop-filter: blur(100px);
+}
+
+.title-middle-adv {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 31.25px */
+}
+
+.dsc-adv {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+}
+
+
+
+
+
