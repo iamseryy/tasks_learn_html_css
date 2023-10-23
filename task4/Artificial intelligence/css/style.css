@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&subset=cyrillic');
+
+:root {
+    --color-font-primary: #FFF;
+    --color-background: #020A18;
+    --width-container: 1147px;
+    --color-button: #3A68B8;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +14,11 @@
 }
 
 body {
-    background-color: #020A18;
+    background-color: var(--color-background);
 }
 
 .container {
-    width: 1147px;
+    width: var(--width-container);
     margin: 0 auto;
 }
 
@@ -23,7 +32,7 @@ body {
 }
 
 .menu-link {
-    color: #FFF;
+    color: var(--color-font-primary);
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
@@ -71,7 +80,7 @@ body {
 }
 
 .main-top-title {
-    color: #FFF;
+    color: var(--color-font-primary);
     font-family: Open Sans;
     font-size: 55px;
     font-style: normal;
@@ -81,7 +90,7 @@ body {
 }
 
 .main-top-dsc {
-    color: #FFF;
+    color: var(--color-font-primary);
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
@@ -93,9 +102,9 @@ body {
 
 .main-link {
     border-radius: 5px;
-    background: #3A68B8;
+    background: var(--color-button);
     padding: 1rem 2rem;
-    color: #FFF;
+    color: var(--color-font-primary);
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
@@ -128,7 +137,7 @@ body {
 
 
 .main-middle-title {
-    color: #FFF;
+    color: var(--color-font-primary);
     font-family: Open Sans;
     font-size: 40px;
     font-style: normal;
@@ -138,7 +147,7 @@ body {
 }
 
 .main-middle-dsc {
-    color: #FFF;
+    color: var(--color-font-primary);
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
@@ -183,7 +192,7 @@ body {
 }
 
 .title-middle-adv {
-    color: #FFF;
+    color: var(--color-font-primary);
     text-align: center;
     font-family: Open Sans;
     font-size: 25px;
@@ -195,7 +204,7 @@ body {
 }
 
 .dsc-adv {
-    color: #FFF;
+    color: var(--color-font-primary);
     text-align: center;
     font-family: Open Sans;
     font-size: 16px;
@@ -210,7 +219,7 @@ body {
 }
 
 .main-bottom-title {
-    color: #FFF;
+    color: var(--color-font-primary);
     font-family: Open Sans;
     font-size: 40px;
     font-style: normal;
@@ -220,7 +229,7 @@ body {
 }
 
 .main-bottom-dsc {
-    color: #FFF;
+    color: var(--color-font-primary);
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
@@ -230,17 +239,31 @@ body {
     margin-bottom: 20px;
 }
 
-footer {
-    border-radius: 10px;
-    /*opacity: 0.05;*/
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) -41.9%, #FFF 260.24%);
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
     backdrop-filter: blur(100px);
     padding-top: 48px;
     padding-bottom: 46px;
 }
 
+.footer:before {
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 10px;
+    opacity: 0.05;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) -41.9%, #FFF 260.24%);
+    backdrop-filter: blur(100px);
+}
+
 .footer-subtitle {
-    color:  #FFF;
+    color: var(--color-font-primary);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -250,7 +273,7 @@ footer {
 }
 
 .footer-addr{
-    color: #FFF;
+    color: var(--color-font-primary);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -260,16 +283,17 @@ footer {
 }
 
 .footer-dsc {
-    color: #FFF;
+    color: var(--color-font-primary);
     font-family: Roboto;
     font-size: 14px;
     font-style: italic;
     font-weight: 100;
     line-height: normal;
+    opacity: 0.6;
 }
 
 .footer-www {
-    color:  #FFF;
+    color: var(--color-font-primary);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -282,36 +306,6 @@ footer {
     margin-right: 24px;
     font-size: 15px;
 }
-
-
-.cloud {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.cloud::before {
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.1;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) -41.9%, #FFF 260.24%);
-}
-
-.title {
-    position: relative;
-    top: 80px;
-    right: 50px;
-    color: white;
-}
-
 
 
 
