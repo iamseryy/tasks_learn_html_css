@@ -1,138 +1,64 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.cdnfonts.com/css/Gilroy-Regular');
+
+:root {
+    --width-container: 1920px;
+    --background-main-top: #FFF;
+    --background-button: #F25822;
+}
+
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
+.container {
+    width: var(--width-container);
+    margin: 0 auto;
 }
 
-@font-face {
-    font-family: "Gilroy-Bold";
-    src: url("../font/Gilroy-Bold.ttf");
-}
-
-@font-face {
-    font-family: Gilroy-Medium;
-    src: url("../font/Gilroy-Medium.ttf");
-}
-
-.top{
-    margin-left: 375px;
-    margin-right: 375px;
-}
-
-.header{
-    margin-top: 40px;
+.flex {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
-.header_logo{
-    width: 35px;
-    height: 40px;
-    margin-right: 14px;
+.main {
 }
 
-.logo_text{
+.main-top {
+    background: var(--background-main-top);
+}
+
+.main-top-subtitle {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
-.header_menu{
-    text-align: justify!important;
-    text-align-last: justify;
-    margin-left: 500px;
-    font-family: Gilroy-Medium;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.header_link{
-    color: #000;
-    margin-right: 10px;
-}
-
-a.header_link:hover{
-    color: #F25822;
-}
-
-.menu_vector{
-    margin-left: 4px;
-}
-
-.top_content{
-    margin-top: 84px;
-    display: flex;
-}
-
-.top_info{
-    margin-right: 40.94px;
-}
-
-.title{
-    color: #000;
-    font-family: Gilroy-Bold;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 17px;
-    }
-
-.subtitle{
-    color: #888;
-    font-family: Gilroy-Medium;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 37px;
-}
-
-.top_buttons{
-    display: flex;
-    align-items: center;
-}
-
-.button{
-    border-radius: 50px;
-    background: #F25822;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-    padding: 15px 36px 16px 35px;
-    color: #FFF;
-    font-family: Gilroy-Bold;
+.main-top-dsc {
+    color: #666;
+    font-family: Gilroy-Regular;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    border: 0;
-    margin-right: 72px;
+    line-height: 150%; /* 22.5px */
 }
 
-.text{
-    color: #AAA;
+.main-top-link {
+    text-decoration: none;
+    color: #000;
     font-family: Gilroy-Bold;
-    font-size: 15px;
+    font-size: 11px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 150%; /* 16.5px */
 }
 
-.top_logos{
-    margin-top: 259px;
-    margin-right: 0px;
-}
-
-.top_logo{
-    margin-right: 30px;
+.main-bottom-link {
+    text-decoration: none;
+    background: var(--background-button);
 }
