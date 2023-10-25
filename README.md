@@ -6,3 +6,4 @@
 | 3   | **[Task3](https://github.com/iamseryy/tasks_learn_html_css/tree/main/task3)** | Working with the layout and creating a block structure |
 | 4   | **[Task4](https://github.com/iamseryy/tasks_learn_html_css/tree/main/task4)** | Positioning Basics                                     |
 | 5   | **[Task5](https://github.com/iamseryy/tasks_learn_html_css/tree/main/task5)** | Positioning Basics part 2                              |
+| 5   | **[Task6](https://github.com/iamseryy/tasks_learn_html_css/tree/main/task6)** | Basics of Creating a Responsive Website                             |
