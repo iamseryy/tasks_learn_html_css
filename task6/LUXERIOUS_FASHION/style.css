@@ -64,12 +64,23 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 33px;
+    font-size: 30px;
+    margin-right: 12px;
+
 }
 
 
 .header__search {
     color: #ffffff;
     font-size: 22px;
+}
+
+.main-top {
+    background: #F1E4E6;
+}
+
+.main-top-header {
+    border-left: 12px solid #F16D7F;
 }
 
 
