@@ -137,8 +137,105 @@ a {
 
 .main-categories {
     display: grid;
-    grid-template-columns: 35% 35% 35%;
-    padding-left: calc(50% - 800px);
-    padding-right: calc(50% - 800px);
+    grid-template-columns: 34% 34% 34%;
+    grid-template-rows: 65% 65% ;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+    margin-bottom: 120px;
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.main-header-header {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-header-dsc {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.popular-items {
+    display: grid;
+    grid-template-columns: 34% 34% 34%;
+    grid-template-rows: 50% 50% 50%;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+    margin-bottom: 30px;
+}
+
+.item {
+    margin-bottom: 50px;
+}
+
+.item-img {
+    margin-bottom: 24px;
+}
+
+.item-header {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+.item-dsc {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.item-price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.main-button {
+    text-align: center;
+
+}
+
+.button {
+    text-decoration: none;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border: 1px solid #FF6A6A;
+}
+
+
+
+.main-bottom {
 
 }
