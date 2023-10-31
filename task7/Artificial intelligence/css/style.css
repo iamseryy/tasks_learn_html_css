@@ -215,6 +215,7 @@ header {
     position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
     /*margin-right: 30px;*/
     /*padding: 0px 30px 30px 30px;*/
     width: 31.6%;
@@ -462,7 +463,7 @@ header {
     }
 
     .advantages {
-        margin-bottom: 195px;
+        margin-bottom: 210px;
     }
 
     .advantages-flex {
@@ -519,7 +520,7 @@ header {
 @media(max-width: 767px){
     .header {
         width: 100%;
-        margin-bottom: 48px;
+        margin-bottom: 45px;
     }
 
     .nav {
@@ -528,7 +529,16 @@ header {
 
     .menu-link {
         font-size: 14px;
-        padding: 40px 1.3%;
+        padding: 40px 8px;
+    }
+
+
+    .main {
+        margin-bottom: 96px;
+    }
+
+    .main-top {
+        margin-bottom: 125px;
     }
 
     .main-top-flex{
@@ -539,17 +549,18 @@ header {
 
     .main-top-left{
         display: flex;
+        margin-right: 0px;
         flex-direction: column;
         align-items: center;
-        width: 52%;
-        margin-bottom: 80px;
+        width: 60%;
+        margin-bottom: 99px;
     }
 
     .main-top-right{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 100%;
     }
 
     .main-top-subtitle {
@@ -571,14 +582,16 @@ header {
 
     .main-link{
         margin-bottom: 24px;
+        margin-right: 0px;
     }
 
-    .main-top {
-        margin-bottom: 80px;
+    .main-top-right-img {
+        width: 54%;
     }
+
 
     .logo {
-        margin-bottom: 174px;
+        margin-bottom: 175px;
     }
 
     .logo-flex {
@@ -592,7 +605,7 @@ header {
     }
 
     .main-middle {
-        margin-bottom: 96px;
+        margin-bottom: 80px;
     }
 
     .main-middle-flex {
@@ -613,7 +626,7 @@ header {
 
     .main-middle-right {
         text-align: center;
-        width: 50%;
+        width: 60%;
     }
 
     .main-middle-title {
@@ -622,12 +635,14 @@ header {
     }
 
     .main-middle-dsc {
-        padding-right: 10%;
-        margin-bottom: 32px;
+        padding: 0 10px 0;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 35px;
     }
 
     .advantages {
-        margin-bottom: 96px;
+        margin-bottom: 45px;
     }
 
     .advantages-flex {
@@ -637,16 +652,85 @@ header {
     }
 
     .advantage {
-        width: 48%;
+        width: 60%;
         margin-bottom: 32px;
     }
 
-    .main-bottom {
-        margin-bottom: 96px;
+    .img-adv {
+
+    }
+
+    .main-bottom-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .main-bottom-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .main-bottom-left
+    {
+        text-align: center;
+        width: 50%;
+        padding-bottom: 20px;
+    }
+
+    .main-bottom-dsc {
+        padding-right: 0px;
+    }
+
+    .main-bottom-right {
+        width: 50%;
+    }
+
+    .main-bottom-right-img {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 0 0 0;
     }
 
 
+    .footer-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .footer-left {
+        width: 50%;
+        margin-right: 0px;
+        order: 1;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+
+    .footer-middle {
+        padding-top: 113px;
+        width: 50%;
+        order: 0;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-subtitle {
+        text-align: center;
+
+    }
+
+    .footer-dsc {
+        text-align: start;
+        width: 75%;
+    }
+
+    .footer-right {
+        order: 2;
+    }
 }
 
 
