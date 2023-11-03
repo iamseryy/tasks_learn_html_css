@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --color-background: #FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background);
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+    padding: 0;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.header {
+    display: flex;
+    background: #222222;
+    min-height: 75px;
+    justify-content: space-between;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__flex {
+}
+
+.header__logo {
+    margin-right: 41px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+    font-size: 30px;
+    margin-right: 12px;
+
+}
+
+
+.header__search {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.main-top {
+    background: #F1E4E6;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+    margin-bottom: 65px;
+}
+
+.main-top-header {
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+
+}
+
+.main-top-img{
+    margin-right: 60px;
+    margin-bottom: 0px;
+}
+
+.main-top-title {
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.main-top-subtitle {
+    display: flex;
+    justify-content:start;
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-top-subtitle-part1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.main-top-subtitle-part2 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-categories {
+    display: grid;
+    grid-template-columns: 34% 34% 34%;
+    grid-template-rows: 65% 65% ;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+    margin-bottom: 120px;
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.main-header-header {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-header-dsc {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.popular-items {
+    display: grid;
+    grid-template-columns: 34% 34% 34%;
+    grid-template-rows: 50% 50% 50%;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+    margin-bottom: 30px;
+}
+
+.item {
+    margin-bottom: 50px;
+}
+
+.item-img {
+    margin-bottom: 24px;
+}
+
+.item-header {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+.item-dsc {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.item-price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.main-button {
+    text-align: center;
+
+}
+
+.button {
+    text-decoration: none;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border: 1px solid #FF6A6A;
+}
+
+
+
+.main-bottom {
+
+}
