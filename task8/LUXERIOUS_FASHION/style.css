@@ -320,9 +320,17 @@ a {
     }
 }
 
-@media(min-width: 1024px) and (max-width: 1080px){
+@media(min-width: 1024px) and (max-width: 1100px){
+    .main-categories {
+        margin: 0 2% 0;
+    }
+
     .main-top-img {
         margin-right: 0;
+    }
+
+    .nav-main-category {
+        gap: 20px
     }
 }
 
@@ -376,6 +384,16 @@ a {
         font-size: 24px;
     }
 
+    .main-categories {
+        margin: 0 2% 0;
+    }
+    .main-top-img {
+        margin-right: 0;
+    }
+
+    .nav-main-category {
+        gap: 20px
+    }
 
 
 }
