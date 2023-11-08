@@ -442,8 +442,7 @@ a {
 
 
 }
-
-@media(max-width: 767px){
+@media(min-width: 375px) and (max-width: 767px){
     .hidden {
         display: none;
     }
@@ -531,5 +530,33 @@ a {
     .item-header {
         margin-bottom: 0;
     }
+}
+
+@media(max-width: 374px) {
+    .hidden {
+        display: none;
+    }
+
+    .header-top-left {
+        margin-right: 20%;
+    }
+
+    .main-top-header {
+
+    }
+
+    .main-top-title {
+        font-size: 30px;
+    }
+
+    .main-top-subtitle {
+        font-size: 24px;
+    }
+
+    .main-top-subtitle-color{
+        font-size: 24px;
+    }
+
+
 
 }
