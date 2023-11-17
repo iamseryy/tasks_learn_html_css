@@ -9,3 +9,4 @@
 | 6   | **[Task6](https://github.com/iamseryy/tasks_learn_html_css/tree/main/task6)** | Basics of Creating a Responsive Website                |
 | 7   | **[Task7](https://github.com/iamseryy/tasks_learn_html_css/tree/main/task7)** | Basics of creating a responsive website part 2         |
 | 8   | **[Task8](https://github.com/iamseryy/tasks_learn_html_css/tree/main/task8)** | HTML5 structure         |
+| 9   | **[Task9](https://github.com/iamseryy/tasks_learn_html_css/tree/main/task9)** | New features of CSS3. Adding Animation         |
