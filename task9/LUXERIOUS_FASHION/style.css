@@ -328,10 +328,11 @@ a {
 
 .footer-top {
     display: flex;
+    justify-content: center;
     max-width: var(--width-container);
     min-height: 341px;
     background: #222224;
-
+    width: 100%;
 }
 
 .footer-top-features {
@@ -378,13 +379,88 @@ a {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    max-width: 360px;
 }
 
 .footer-center {
+
+    max-width: var(--width-container);
+    width: 100%;
     display: flex;
+    justify-content: center;
     height: 448px;
-    background: #222222;
+    position: relative;
+
+}
+
+.footer-center::after {
     background-image: url('img/Layer 41.png');
+    opacity: 0.5;
+}
+
+.footer-subscribe {
+    display: flex;
+    align-items: center;
+    gap: 327px;
+    position: relative;
+}
+
+.footer-center-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-icon {
+    margin-bottom: 30px;
+    opacity: 10;
+}
+
+.subscribe-icon-desc {
+    max-width: 360px;
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subscribe-icon-desc-italic {
+    font-style: italic;
+}
+
+.subscribe-header {
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%; /* 40.128px */
+}
+
+.subscribe-subheader {
+    color: #222224;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+}
+
+.subscribe-input {
+
+}
+
+::placeholder {
+    color: #222224;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
@@ -502,7 +578,6 @@ a {
         width: 100%;
     }
 
-
     .main-top-header {
         border-left: 12px solid #F16D7F;
         padding-left: 16px;
@@ -561,9 +636,22 @@ a {
         gap: 16px;
     }
 
+    .footer-top-features {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 48px;
+        margin: 0 204px 64px;
+    }
 
+    .footer-top-feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
+
 @media(min-width: 375px) and (max-width: 767px){
     .hidden {
         display: none;
@@ -651,6 +739,20 @@ a {
 
     .item-header {
         margin-bottom: 0;
+    }
+
+    .footer-top-features {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 48px;
+        margin: 0 14px 81px;
+    }
+
+    .footer-top-feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer-bottom {
